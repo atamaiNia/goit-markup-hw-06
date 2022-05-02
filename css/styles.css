@@ -927,10 +927,12 @@ img {
   border: 2px solid var(--main-text-color);
   border-radius: 2px;
   margin-right: 7px;
+  transition: background-color var(--transition);
 }
 
 .checkbox-icon {
   fill: transparent;
+  transition: fill var(--transition);
 }
 
 .checkbox-input:checked + .checkbox-label span {
