@@ -812,8 +812,8 @@ img {
   transition: fill var(--transition);
 }
 
-.icon-close-modal:hover,
-.icon-close-modal:focus {
+.btn-close-modal:hover .icon-close-modal,
+.btn-close-modal:focus .icon-close-modal {
   fill: var(--main-hover-color);
 }
 
@@ -940,6 +940,10 @@ img {
   background-color: var(--main-hover-color);
   border: none;
 }
+.checkbox-input:focus + .checkbox-label span {
+  border-color: var(--main-hover-color);
+}
+
 .checkbox-input:checked + .checkbox-label .checkbox-icon {
   fill: var(--third-text-color);
 }
