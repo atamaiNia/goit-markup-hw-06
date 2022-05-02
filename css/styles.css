@@ -809,6 +809,7 @@ img {
 
 .icon-close-modal {
   fill: currentColor;
+  transition: fill var(--transition);
 }
 
 .icon-close-modal:hover,
